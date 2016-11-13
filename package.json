@@ -1,0 +1,25 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "Project created testing web browser ",
+  "main": "index",
+  "scripts": {
+    "server": "nodemon -watch index.js && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mocha": "^3.1.2",
+    "selenium-webdriver": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "spectron": "^3.4.0",
+    "wdio-mocha-framework": "^0.5.3"
+  }
+}
